@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #0f295900;
+}
+
+body {
+  font-family: 'Yatra One', cursive;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 25;
+  color: #000000;
+  background: #b3b0b0;
+}
+
+/* Navbar */
+.navbar {
+  background: image('../img/Phrasius I.gif');
+  color: #4e345a;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 1rem;
+}
+
+.navbar a {
+  color: #000000;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.navbar a:hover {
+  text-decoration-style: wavy;
+  text-decoration-color: cyan;
+  color: purple;
+}
+
+/* Showcase */
+.showcase {
+  height: 450px;
+  width: 100%;
+  background: var(--primary-color);
+}
+
+.showcase h1 {
+  font-size: 2.8rem;
+  text-shadow: rgb(138, 43, 226);
+  text-shadow: 0.8px 0.8px 0.8px #760ec6;
+  color: #140000;
+  text-align: center;
+  padding: 2rem;
+}
+
+.showcase form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.showcase form input,
+form select {
+  font-size: 20px;
+  width: 500px;
+  max-width: 500px;
+  padding: 1rem;
+  border: 1px solid #aa16ff;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+form button {
+  font-size: 20px;
+  font-family: 'Yatra One', cursive;
+  font-weight: 40;
+  text-decoration: solid;
+  padding: 1rem 1.5rem;
+  border: black;
+  border-style: solid;
+  border-radius: 8px;
+  background: #760ec6;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+
+form button:hover {
+  transform: scale(1.1);
+}
+
+/* Image */
+
+.image {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.msg {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="Favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="img/Phrasius I.gif" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/spinner.css" />
+
+    <script src="/js/main.js" defer></script>
+    <title>Phrasius-I-Phrase-To-Image</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+            <img src="img/Phrasius I.gif" alt="Phrasius I" />
+        </div>
+          <ul>
+            <li>
+              <a href="https://beta.openai.com/docs" target="_blank" >OpenAI API Docs</a>
+              <a title="Developers for Firefox"
+   rel="nofollow"
+   href="https://www.mozilla.org/firefox/this-browser-comes-highly-recommended/?utm_source=devs-for.firefox.com&utm_medium=referral&utm_campaign=devs-for-firefox&utm_content=Developers_For_Firefox_Dark">
+  <img style="border:0 none;"
+       alt="Developers for Firefox"
+       srcset="//code.cdn.mozilla.net/for-firefox/badges/assets/Developers_For_Firefox_Dark.png,
+               //code.cdn.mozilla.net/for-firefox/badges/assets/Developers_For_Firefox_Dark-2x.png 2x"
+       src="https://code.cdn.mozilla.net/for-firefox/badges/assets/Developers_For_Firefox_Dark.png">
+                </a>
+            </li>
+          </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="showcase">
+        <form id="image-form">
+          <h1>Describe Your Idea</h1>
+          <p>Be as specific as possible with details and layout (logo, flyer, poster, etc.).</p>
+          <div class="form-control">
+            <input type="text" id="prompt" placeholder="Enter Idea.." />
+          </div>
+          <!-- size -->
+          <div class="form-control">
+            <label for="size">Select size:</label>
+            <select name="size" id="size" title="Size selection">
+              <option value="small">Small</option>
+              <option value="medium" selected>Medium</option>
+              <option value="large">Large</option>
+            </select>
+          </div>
+          <button type="submit" class="btn">Create</button>
+        </form>
+      </section>
+
+      <section class="image">
+        <div class="image-container">
+          <h2 class="msg"></h2>
+          <img src="" alt="" id="image" />
+        </div>
+      </section>
+    </main>
+
+    <div class="spinner"></div>
+
+    <footer>
+      <div class="navbar">
+      <div class="nav-links">
+        <ul>
+          <li>
+            <a href="https://verzai.blufitech.com" target="_blank" rel="noopener">VerzAI</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li>
+            <a href="https://execustart.blufitech.com" target="_blank" rel="noopener">Home</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
